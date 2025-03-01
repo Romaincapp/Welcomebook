@@ -12,24 +12,41 @@
         
         <title>Welcomebook / TravelBook / TipsBook / EntrepriseBook</title>
         
-        <!-- Favicon et icônes Apple Touch (à placer dans un dossier /images) -->
-        <link href="./images/touch-icon-iphone.png" rel="apple-touch-icon" sizes="60x60" />
-        <link href="./images/touch-icon-ipad.png" rel="apple-touch-icon" sizes="76x76" />
-        <link href="./images/touch-icon-iphone-retina.png" rel="apple-touch-icon" sizes="120x120" />
-        <link href="./images/touch-icon-ipad-retina.png" rel="apple-touch-icon" sizes="152x152" />
-        <link href="./images/favicon.png" rel="shortcut icon" />
-        <link href="./images/favicon.png" rel="icon" />
+        <!-- Favicon et icônes Apple Touch -->
+        <link href="https://primary.jwwb.nl/public/m/g/h/temp-uwgiirmxudobwkfkwspq/touch-icon-iphone.png" rel="apple-touch-icon" sizes="60x60" />
+        <link href="https://primary.jwwb.nl/public/m/g/h/temp-uwgiirmxudobwkfkwspq/touch-icon-ipad.png" rel="apple-touch-icon" sizes="76x76" />
+        <link href="https://primary.jwwb.nl/public/m/g/h/temp-uwgiirmxudobwkfkwspq/touch-icon-iphone-retina.png" rel="apple-touch-icon" sizes="120x120" />
+        <link href="https://primary.jwwb.nl/public/m/g/h/temp-uwgiirmxudobwkfkwspq/touch-icon-ipad-retina.png" rel="apple-touch-icon" sizes="152x152" />
+        <link href="https://primary.jwwb.nl/public/m/g/h/temp-uwgiirmxudobwkfkwspq/favicon.png" rel="shortcut icon" />
+        <link href="https://primary.jwwb.nl/public/m/g/h/temp-uwgiirmxudobwkfkwspq/favicon.png" rel="icon" />
         
         <!-- Open Graph et Twitter Card -->
-        <meta property="og:image" content="./images/og-image.jpg">
+        <meta property="og:image" content="https://primary.jwwb.nl/unsplash/C3V88BOoRoM.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200">
         <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:image" content="./images/og-image.jpg">
+        <meta property="twitter:image" content="https://primary.jwwb.nl/unsplash/C3V88BOoRoM.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200">
         
         <!-- Polices Google -->
         <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         
         <!-- Styles CSS -->
         <style>
+            /* Cachons les éléments d'administration Webador */
+            .jw-edit-btn,
+            .jw-edit-menu,
+            .jw-edit-link,
+            .jw-edit-toolbar,
+            .jw-controls,
+            .jw-ribbon,
+            .jw-modified,
+            [class*="jw-drawer"],
+            [id*="jw-drawer"],
+            [class*="jw-edit"],
+            [id*="jw-edit"] {
+                display: none !important;
+                visibility: hidden !important;
+                opacity: 0 !important;
+                pointer-events: none !important;
+            }
             /* Styles de base */
             body, html {
             
@@ -132,7 +149,7 @@
                 <div class="cta-content">
                     <button class="close-button" onclick="closeCTA()">×</button>
                     <div class="cta-icon">
-                        <img src="./images/cta-icon.jpeg" alt="Icon" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+                        <img src="https://images.pexels.com/photos/2607113/pexels-photo-2607113.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Icon" style="width: 48px; height: 48px; border-radius: 12px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
                     </div>
                     <div class="cta-text">
                         <h3>Quick start ! 🚀</h3>
@@ -169,7 +186,7 @@
                         </div>
                         
                         <div class="footer-image-container">
-                            <img src="./images/founder.png" alt="Fondateur" class="footer-image">
+                            <img src="https://primary.jwwb.nl/public/m/g/h/temp-uwgiirmxudobwkfkwspq/design-sans-titre-6-high.png" alt="Fondateur" class="footer-image">
                         </div>
                     </div>
                     
@@ -418,7 +435,7 @@
             }
           
             .parallax-section {
-                background-image: url('./images/vert-2-high.png');
+                background-image: url('https://primary.jwwb.nl/public/m/g/h/temp-uwgiirmxudobwkfkwspq/vert-2-high.png');
                 height: 300px;
                 background-attachment: fixed;
                 background-size: cover;
@@ -556,12 +573,12 @@
             }
 
             .welcomebook::before {
-                background-image: url('./images/welcomebook-bg.jpeg');
+                background-image: url('https://images.pexels.com/photos/10658122/pexels-photo-10658122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
                 animation-delay: 0s;
             }
 
             .travelbook::before {
-                background-image: url('./images/travelbook-bg.jpeg');
+                background-image: url('https://images.pexels.com/photos/165505/pexels-photo-165505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
                 animation-delay: 3s;
             }
 
